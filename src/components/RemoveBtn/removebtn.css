@@ -1,0 +1,7 @@
+.btn__remove{
+    width: 70px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

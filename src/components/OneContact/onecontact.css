@@ -1,0 +1,146 @@
+.contact{
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.description__item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.description__item--p{
+    width: 100%;
+    text-indent: 20px;
+    margin-right: 20px;
+}
+
+.btn__edit{
+    background-color: #00ff00;
+    width: 80px;
+}
+
+.btn__remove{
+    background-color: #ff0000;
+    width: 70px;
+}
+
+.btn__add{
+    width: 50px;
+    background-color: #45a5ff;
+}
+
+.btn__remove, .btn__edit, .btn__add{
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+   .contact{
+    width: 90%;
+   }
+}
+
+@media screen and (max-width: 1000px){
+    .contact{
+        width: 90%;
+    }
+    
+    .avatar img{
+       width: 100px;
+    }
+    
+    
+    .description{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .description__item{
+        width: 20%;
+    }
+ }
+
+ @media screen and (max-width: 800px){
+    .contact{
+        width: 90%;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .description__item{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+ }
+
+ @media screen and (max-width: 600px){
+    .contact{
+        width: 90%;
+    }
+    
+    .description__item{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .description__item--p{
+        margin-right: 10px;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn__remove, .btn__edit, .btn__add{
+        width: 90%;
+    }
+
+    
+ }

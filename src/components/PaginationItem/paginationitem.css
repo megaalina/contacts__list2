@@ -1,0 +1,21 @@
+.pagination__item{
+    cursor: pointer;
+    padding: 7.5px 15px;
+    background-color: #45a5ff;
+    border: 2px solid #fff;
+    font-size: 18px;
+}
+
+.pagination__item--active{
+    background-color: #2235a2;
+}
+
+.pagination__item:hover{
+    background-color: #2235a2;
+}
+
+a{
+    
+    color: #fff;
+    text-decoration: none;
+}

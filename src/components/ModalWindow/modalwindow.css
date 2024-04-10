@@ -1,0 +1,92 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: #45a5ff;
+    width: 50%;
+    position: relative;
+}
+
+.content{
+    background-color: #fff;
+    margin: 20px;
+}
+
+.btn__del{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    font-size: 2em;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.content__form{
+    padding: 10px;
+    background-color: #e8e8e8;
+}
+
+.content__input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    height: 20px;
+}
+
+input:focus{
+    background-color: #a3caef;
+}
+
+.content__textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.content__btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .modal{
+        width: 60%;
+    }
+  }
+ 
+  @media screen and (max-width: 800px){
+    .modal{
+        width: 80%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px){
+    .modal{
+        width: 90%;
+    }
+
+    .content__input{
+        display: flex;
+        flex-direction: column;
+    }
+     
+  }

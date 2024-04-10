@@ -1,0 +1,144 @@
+.form{
+    width: 95%;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: center;
+}
+
+.form2{
+    width: 95%;
+    min-height: 100px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.form__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.input__search{
+    width: 20%;
+    max-height: 25px;
+    border: 2px solid #024980;
+}
+
+.input__search2{
+    width: 20%;
+}
+
+.input__search:focus{
+    background-color: #a3caef;
+    outline: none;
+    
+}
+
+.input__search2:focus{
+    background-color: #a3caef;
+    outline: none;
+    
+}
+
+.btn__search, .btn__search2, .btn__sort{
+    max-height: 22px;
+    padding: 0 10px;
+    border-bottom: 2px solid #024980;
+    border-top: 2px solid #024980;
+    
+}
+
+.btn__search, .btn__search2{
+    border-right: 2px solid #024980;
+}
+
+.btn__sort{
+    text-align: center;
+    border-left: 2px solid #024980;
+    color: #fff;
+}
+
+.icon__search, .icon__search2{
+    width: 16px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.btn__return--search2{
+    width: 22.5%;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 5px ;
+    border-radius: 5px;
+}
+
+.btn__return--search2:focus{
+    background-color: #2235a2;
+}
+
+@media screen and (max-width: 1200px){
+    .input__search, .input__search2{
+        width: 25%;
+    }
+
+    .form__container{
+        flex-wrap: wrap;
+    }
+
+    .btn__return--search2{
+        width: 27.5%;
+    }
+ }
+ 
+ @media screen and (max-width: 1000px){
+     .input__search, .input__search2{
+        width: 35%;
+    }
+
+    
+    .btn__return--search2{
+        width: 38.5%;
+    }
+  }
+ 
+  @media screen and (max-width: 800px){
+    .form{
+        width: 90%;
+        margin-left: 50px;
+        justify-content: center;
+     }
+     .input__search, .input__search2{
+        width: 90%;
+        max-height: 35px;
+    }
+
+    .btn__return--search2{
+        width: 93.5%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px){
+    .input__search, .input__search2{
+        width: 70%;
+        max-height: 35px;
+    }
+
+    .btn__return--search2{
+        width: 78.5%;
+    }
+    .form, .form2{
+        justify-content: center;
+     }
+     
+  }

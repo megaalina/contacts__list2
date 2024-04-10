@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: #45a5ff;
+}
+
+.message{
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: #fff;
+}
+
+.btn__return--search{
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn__return--search:hover{
+    background-color: #2235a2;
+}
+
